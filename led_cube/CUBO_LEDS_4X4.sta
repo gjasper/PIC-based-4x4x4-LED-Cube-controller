@@ -1,0 +1,59 @@
+
+ROM used: 1492 (5%)
+          1492 (5%) including unused fragments
+
+          1 Average locations per line
+          2 Average locations per statement
+
+RAM used: 108 (7%) at main() level
+          123 (8%) worst case
+
+Stack used: 4 worst case (out of 28 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  205   100  17  CUBO_LEDS_4X4.c
+   32     0   0  CUBO_LEDS_4X4.h
+  438     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F4520.h
+ 1493   380  63  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\STDLIB.H
+   28     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  409   121  20  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 2633   601 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   1   1             @delay_ms1
+0     86   3  14             @MUL3232
+0    106   4   4   101  3.8  rand
+0     68   2   5             @DIV1616
+0    114   4   0   533  5.7  RTCC_isr
+0     34   1   0             @goto11254
+0    388  13   0  1184  6.3  TIMER1_isr
+0     80   3   0   346  5.5  EXT_isr
+0     36   1   0             @goto11298
+0     18   1   0    72  3.0  EXT1_isr
+0    330  11   0   552  2.9  MAIN
+
+Program metrics:
+    Functions               6
+    Statements              601
+    Comments                901
+    Volume (V)              3884
+    Difficilty (D)          27.6
+    Effort to implement (E) 107349
+    Time to implement (T)   1 hours, 39 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   16
+    Maintainability (MI)    69
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C0   186  0  
+000C2-07FFE  1302  31272  
+
+
+
