@@ -1,4 +1,4 @@
-# PIC-based-4x4x4-LED-Cube-controller
+# PIC based 4x4x4 LED Cube controller
 
 Project files included:
 
