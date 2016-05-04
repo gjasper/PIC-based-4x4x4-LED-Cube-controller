@@ -1,0 +1,137 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018-019 strtok.save
+01A-01D _Randseed
+01E     cubeLevelC0
+01F     cubeLevelC1
+020     cubeLevelC2
+021     cubeLevelC3
+022     cubeLevelD0
+023     cubeLevelD1
+024     cubeLevelD2
+025     cubeLevelD3
+026     levelEnable
+027-02A Mode1_CubeLevelC0
+02B-02E Mode1_CubeLevelC1
+02F-032 Mode1_CubeLevelC2
+033-036 Mode1_CubeLevelC3
+037-03A Mode1_CubeLevelD0
+03B-03E Mode1_CubeLevelD1
+03F-042 Mode1_CubeLevelD2
+043-046 Mode1_CubeLevelD3
+047-04A Mode2_CubeLevelC0
+04B-04E Mode2_CubeLevelC1
+04F-052 Mode2_CubeLevelC2
+053-056 Mode2_CubeLevelC3
+057-05A Mode2_CubeLevelD0
+05B-05E Mode2_CubeLevelD1
+05F-062 Mode2_CubeLevelD2
+063-066 Mode2_CubeLevelD3
+067     speedControl
+068     stateControl
+069     modeControl
+06A-06B timer1StartValue
+06C     @delay_ms1.P1
+06D-070 @MUL3232.P1
+06D     rand.@SCRATCH1
+06E     rand.@SCRATCH2
+06F     rand.@SCRATCH3
+070-071 @DIV1616.P1
+070     rand.@SCRATCH4
+071-074 @MUL3232.P1
+072-073 @DIV1616.P1
+074     @DIV1616.@SCRATCH1
+075     @MUL3232.@SCRATCH1
+076     @MUL3232.@SCRATCH2
+077     @MUL3232.@SCRATCH3
+078     @MUL3232.@SCRATCH4
+079     @MUL3232.@SCRATCH5
+07A     @MUL3232.@SCRATCH6
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB-FBC CCP_2
+FBC     CCP_2_HIGH
+FBE-FBF CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0464  @delay_ms1
+0156  @MUL3232
+01F0  rand
+01AC  @DIV1616
+00C2  RTCC_isr
+0134  @goto11254
+025A  TIMER1_isr
+03DE  EXT_isr
+042E  @goto11298
+0452  EXT1_isr
+048E  MAIN
+048E  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Users\GHJ\Google Drive\Univali\2015-1\Microcontroladores\C_Projects\TrabalhoFA\
+
+Project Files:
+    CUBO_LEDS_4X4.c
+    CUBO_LEDS_4X4.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F4520.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\STDLIB.H
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    CUBO_LEDS_4X4.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4520
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Predefined symbols:
+       #define __18F4520 TRUE
+
+Output Files:
+    Errors:      CUBO_LEDS_4X4.err
+    Ext Symbols: CUBO_LEDS_4X4.esym
+    INHX32:      CUBO_LEDS_4X4.hex
+    Symbols:     CUBO_LEDS_4X4.sym
+    List:        CUBO_LEDS_4X4.lst
+    Debug/COFF:  CUBO_LEDS_4X4.cof
+    Project:     CUBO_LEDS_4X4.PJT
+    Call Tree:   CUBO_LEDS_4X4.tre
+    Statistics:  CUBO_LEDS_4X4.sta

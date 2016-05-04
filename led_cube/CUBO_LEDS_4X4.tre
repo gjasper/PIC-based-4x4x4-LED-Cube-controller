@@ -1,0 +1,34 @@
+ÀÄCUBO_LEDS_4X4
+   ÃÄMAIN  0/330  Ram=0
+   ³  ÃÄ??0??
+   ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ÃÄRTCC_isr  0/114  Ram=0
+   ³  ÀÄ@goto11254  0/34  Ram=0
+   ÃÄTIMER1_isr  0/388  Ram=0
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÃÄrand  0/106  Ram=4
+   ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ÀÄ@DIV1616  0/68  Ram=5
+   ³  ÀÄrand  0/106  Ram=4
+   ³     ÃÄ@MUL3232  0/86  Ram=14
+   ³     ÀÄ@DIV1616  0/68  Ram=5
+   ÃÄEXT_isr  0/80  Ram=0
+   ³  ÀÄ@goto11298  0/36  Ram=0
+   ÀÄEXT1_isr  0/18  Ram=0
